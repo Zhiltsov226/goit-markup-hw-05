@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomeWork</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=fallback"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
      <link lang="en" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
   </head>
@@ -12,8 +16,7 @@
     <header class="haed-hero">
         <div class="container main-div">
         <nav class="nav-header">
-          <a href="./portfolio.html" class="logo">
-            <img src="./images/logo.svg" alt="логотип" /></a>
+            <span><a href="./portfolio.html" class="logo">Web</a></span><span><a href="./portfolio.html"  class="logotip">Studio</a></span>
 
          <ul class="site-nav">
              <li class="iteam-header"><a class="link-active-styles" href="Студия">Студия</a></li>
@@ -102,18 +105,29 @@
         <section>
             <div class="container">
             <div><h2>Чем мы занимаемся</h2></div>
+            <div class="iteam-section">
                <ul class="engaged-section">
-                    <div class="iteam-section">
-                    <li class="iteam-hero"><img src="./images/IT.jpg" width="370" alt="картинка на тему IT"/></li>
-                    </div> 
-                    <div class="iteam-section">
-                    <li class="iteam-hero"><img src="./images/IT2.jpg" width="370" alt="картинка на тему IT"/></li>
-                </div>
-                <div class="iteam-section">
-                    <li class="iteam-hero"><img src="./images/IT3.jpg" width="370" alt="картинка на тему IT"/></li>
-                </div>
+                   
+                    <li class="iteam-hero">
+                        <img src="./images/IT.jpg" width="370" alt="картинка на тему IT"/>
+                      
+                       <p class="img-section-hero">Декстопные приложения</p>
+                     
+                    </li>
                     
-                </ul>    
+                    <li class="iteam-hero">
+                        <img src="./images/IT2.jpg" width="370" alt="картинка на тему IT"/>
+                        <p class="img-section-hero">Мобильные приложения</p>
+                    </li>
+               
+                    <li class="iteam-hero">
+                        <img src="./images/IT3.jpg" width="370" alt="картинка на тему IT"/>
+                        <p class="img-section-hero">Дизайнерское решения</p>
+                    </li>
+            
+                    
+                </ul>  
+            </div>  
             </div>
         </section>
         <!--контент 4 -->
@@ -124,9 +138,10 @@
                 <li  class="img-team">
                     <div class="img-team-item">
                     <img src="./images/human2.jpg" width="270" alt="Photo"/>
-                
+                       <div>
                          <h3 class="link-title-developer">Ольга Репина</h3>
                          <p class="link-title-fron">Frontend Developer</p>
+                        </div>
                          <ul class="team-ul">
                              <li class="team-li">
                                <a class="team-social" href="https://www.instagram.com/" target="_blank" rel="noopener noreferre" aria-label="ссылка Инстраграм">
@@ -201,8 +216,12 @@
                 <li  class="img-team">
                     <div class="img-team-item">
                     <img src="./images/human.jpg" width="270" alt="Photo"/>
+                    <div>
                         <h3 class="link-title-product">Игорь Демьяненко</h3>       
                         <p class="link-title-des">Product Designer</p>
+                    </div>
+                    
+                        
                         <ul class="team-ul">
                             <li class="team-li">
                               <a class="team-social" href="https://www.instagram.com/" target="_blank" rel="noopener noreferre" aria-label="ссылка Инстраграм">
@@ -340,7 +359,7 @@
                 <!-- <div class="addres"> -->
                 <div class="fot-conteiner">
                     <div class="addres">
-                        <a href="./portfolio.html" class="logotip">
+                        <a href="./portfolio.html" class="logotip-fot">
                             <img src="./images/logo.svg" alt="логотип" /></a>
                                   
                          <address>
@@ -354,38 +373,39 @@
                      <div class="join-icon">
                         <span><h3 class="join">присоединяйтесь </h3></span>
                         <ul class="fot-ul-icon">
-                        <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на instagram">
-                           <svg class="fot-svg-icon">
-                               <use href="./images/svg/fottr/symbol-defs.svg#iconEllipse-5" ></use>
-                           </svg>
-                        </a>
-                        
-                            
-                        </li>
-                        <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на twitter">
-                                <svg class="fot-svg-icon">
-                                <use href="./images/svg/fottr/symbol-defs.svg#iconEllipse-8" ></use>
-                            </svg>
+                            <li class="fot-icon">
+                                <a class="icon" href="" aria-label="ссылка на instagram">
+                               <svg class="fot-svg-icon">
+                                   <use href="./images/svg/imgO/symbol-defs.svg#iconinstagram" ></use>
+                               </svg>
                             </a>
-    
-                        </li>
-                        <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на facebook">
-                            <svg class="fot-svg-icon">
-                                <use href="./images/svg/fottr/symbol-defs.svg#iconEllipse-6" ></use>
-                            </svg>
-                        </a>
+                            
+                                
                             </li>
-                        <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на linkedin">
+                            <li class="fot-icon">
+                                <a class="icon" href="" aria-label="ссылка на twitter">
+                                    <svg class="fot-svg-icon">
+                                    <use href="./images/svg/imgO/symbol-defs.svg#icontwitter" ></use>
+                                </svg>
+                                </a>
+        
+                            </li>
+                            <li class="fot-icon">
+                                <a class="icon" href="" aria-label="ссылка на facebook">
                                 <svg class="fot-svg-icon">
-                                    <use href="./images/svg/fottr/symbol-defs.svg#iconEllipse-7" ></use>
+                                    <use href="./images/svg/imgO/symbol-defs.svg#iconfacebook" ></use>
                                 </svg>
                             </a>
-                            </li>
-                        </ul>
+                                </li>
+                            <li class="fot-icon">
+                                <a class="icon" href="" aria-label="ссылка на linkedin">
+                                    <svg class="fot-svg-icon">
+                                        <use href="./images/svg/imgO/symbol-defs.svg#iconlinkedin" ></use>
+                                    </svg>
+                                </a>
+                                </li>
+                            </ul>
+         
                     </div>
                 </div>
             </div>
